@@ -1,0 +1,166 @@
+# GP7 Robot Parameters
+# General robot configuration parameters
+
+robot_description:
+  robot_name: "gp7_robot"
+  manufacturer: "Motoman"  # Update if different
+  model: "GP7"
+  
+  # Physical properties
+  total_mass: 20.8  # kg (sum of all link masses)
+  reach: 0.927      # meters (approximate from URDF)
+  payload: 7.0      # kg (typical for GP7, verify with specs)
+  
+  # Degrees of freedom
+  dof: 8
+  arm_dof: 6
+  gripper_dof: 2
+
+# Kinematic configuration
+kinematics:
+  # Joint count by type
+  revolute_joints: 6
+  prismatic_joints: 2
+  
+  # Default kinematic solver
+  solver: "KDL"  # or "TracIK", "TRAC-IK"
+  
+  # IK solver parameters
+  ik_timeout: 0.05
+  ik_attempts: 10
+
+# Planning configuration
+planning:
+  # Planning groups
+  groups:
+    - name: "arm"
+      joints: ['joint_1', 'joint_2', 'joint_3', 'joint_4', 'joint_5', 'joint_6']
+      tip_link: "link_6"
+      base_link: "base_link"
+    
+    - name: "gripper"
+      joints: ['joint_7', 'joint_8']
+      tip_link: "link_8"
+      base_link: "link_6"
+  
+  # Default planner
+  default_planner: "RRTConnect"
+  
+  # Planning parameters
+  planning_time: 5.0
+  max_velocity_scaling_factor: 0.3
+  max_acceleration_scaling_factor: 0.3
+
+# Safety limits
+safety:
+  # Joint velocity limits (percentage of max)
+  velocity_scale: 0.5
+  
+  # Joint acceleration limits
+  acceleration_scale: 0.5
+  
+  # Collision checking
+  self_collision_check: true
+  scene_collision_check: true
+  
+  # Safety zones (example - adjust as needed)
+  workspace_bounds:
+    x_min: -1.0
+    x_max: 1.0
+    y_min: -1.0
+    y_max: 1.0
+    z_min: 0.0
+    z_max: 1.5
+
+# Visualization
+visualization:
+  # RViz settings
+  ghost_alpha: 0.3
+  trail_length: 10
+  
+  # Colors (RGBA)
+  robot_color: [0.75, 0.75, 0.75, 1.0]
+  gripper_color: [0.79, 0.82, 0.93, 1.0]
+  collision_color: [1.0, 0.0, 0.0, 0.5]
+
+# Simulation parameters
+simulation:
+  # Gazebo physics
+  use_sim_time: true
+  physics_engine: "ode"  # or "bullet", "simbody"
+  
+  # Time step
+  max_step_size: 0.001
+  real_time_factor: 1.0
+  
+  # Contact parameters
+  contact_max_correcting_vel: 0.1
+  contact_surface_layer: 0.001
+
+# Sensor configuration (if applicable)
+sensors:
+  # Joint sensors
+  joint_state_rate: 100  # Hz
+  
+  # Force/torque sensors (if equipped)
+  # ft_sensor:
+  #   frame: "link_6"
+  #   rate: 100
+
+# Gripper configuration
+gripper:
+  # Gripper type
+  type: "parallel_jaw"
+  
+  # Finger configuration
+  fingers: 2
+  
+  # Gripper parameters
+  max_opening: 0.05  # meters
+  grasp_force: 10.0  # Newtons
+  
+  # Gripper control
+  control_mode: "position"  # or "effort"
+
+# Communication
+communication:
+  # ROS2 QoS settings
+  qos_depth: 10
+  qos_reliability: "reliable"  # or "best_effort"
+  qos_durability: "volatile"   # or "transient_local"
+
+# Logging
+logging:
+  level: "info"  # "debug", "info", "warn", "error"
+  
+  # Log topics
+  log_joint_states: true
+  log_controller_commands: true
+  log_trajectory_execution: true
+
+# Performance tuning
+performance:
+  # Thread settings
+  num_threads: 4
+  
+  # Buffer sizes
+  state_buffer_size: 100
+  command_buffer_size: 100
+  
+  # Update rates
+  state_update_rate: 100  # Hz
+  control_update_rate: 100  # Hz
+
+# Custom parameters (add your own as needed)
+custom:
+  # Example: calibration offsets
+  # joint_offsets:
+  #   joint_1: 0.0
+  #   joint_2: 0.0
+  #   ...
+  
+  # Example: gear ratios
+  # gear_ratios:
+  #   joint_1: 100.0
+  #   joint_2: 120.0
+  #   ...
