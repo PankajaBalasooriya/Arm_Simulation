@@ -1,0 +1,49 @@
+[0.456s] Invoking command in '/home/pankaja/projects/Arm_Simulation/gp7_robot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pankaja/projects/Arm_Simulation/build/gp7_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gp7_robot_description build --build-base /home/pankaja/projects/Arm_Simulation/build/gp7_robot_description/build install --record /home/pankaja/projects/Arm_Simulation/build/gp7_robot_description/install.log --single-version-externally-managed install_data
+[0.595s] running egg_info
+[0.596s] creating ../build/gp7_robot_description/gp7_robot_description.egg-info
+[0.605s] writing ../build/gp7_robot_description/gp7_robot_description.egg-info/PKG-INFO
+[0.605s] writing dependency_links to ../build/gp7_robot_description/gp7_robot_description.egg-info/dependency_links.txt
+[0.605s] writing requirements to ../build/gp7_robot_description/gp7_robot_description.egg-info/requires.txt
+[0.605s] writing top-level names to ../build/gp7_robot_description/gp7_robot_description.egg-info/top_level.txt
+[0.605s] writing manifest file '../build/gp7_robot_description/gp7_robot_description.egg-info/SOURCES.txt'
+[0.615s] reading manifest file '../build/gp7_robot_description/gp7_robot_description.egg-info/SOURCES.txt'
+[0.615s] writing manifest file '../build/gp7_robot_description/gp7_robot_description.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running install
+[0.619s] running install_data
+[0.619s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/ament_index
+[0.619s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/ament_index/resource_index
+[0.619s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/ament_index/resource_index/packages
+[0.619s] copying resource/gp7_robot_description -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/ament_index/resource_index/packages
+[0.619s] copying package.xml -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description
+[0.619s] copying launch/launch.py -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description
+[0.619s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/urdf
+[0.619s] copying urdf/gp7_robot.xacro -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/urdf/
+[0.619s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/rviz
+[0.619s] copying rviz/default.rviz -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/rviz/
+[0.619s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes
+[0.619s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision
+[0.619s] copying meshes/collision/link_8.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.620s] copying meshes/collision/link_3.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.620s] copying meshes/collision/link_5.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.620s] copying meshes/collision/link_4.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.620s] copying meshes/collision/link_7.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.620s] copying meshes/collision/link_1.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.621s] copying meshes/collision/link_2.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.621s] copying meshes/collision/link_6.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.621s] copying meshes/collision/base_link.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/
+[0.622s] creating /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual
+[0.622s] copying meshes/visual/link_8.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.622s] copying meshes/visual/link_3.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.623s] copying meshes/visual/link_5.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.623s] copying meshes/visual/link_4.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.623s] copying meshes/visual/link_7.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.623s] copying meshes/visual/link_1.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.624s] copying meshes/visual/link_2.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.624s] copying meshes/visual/link_6.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.624s] copying meshes/visual/base_link.STL -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/visual/
+[0.625s] running install_egg_info
+[0.646s] Copying ../build/gp7_robot_description/gp7_robot_description.egg-info to /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/lib/python3.12/site-packages/gp7_robot_description-0.0.0-py3.12.egg-info
+[0.646s] running install_scripts
+[0.711s] writing list of installed files to '/home/pankaja/projects/Arm_Simulation/build/gp7_robot_description/install.log'
+[0.727s] Invoked command in '/home/pankaja/projects/Arm_Simulation/gp7_robot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pankaja/projects/Arm_Simulation/build/gp7_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gp7_robot_description build --build-base /home/pankaja/projects/Arm_Simulation/build/gp7_robot_description/build install --record /home/pankaja/projects/Arm_Simulation/build/gp7_robot_description/install.log --single-version-externally-managed install_data
