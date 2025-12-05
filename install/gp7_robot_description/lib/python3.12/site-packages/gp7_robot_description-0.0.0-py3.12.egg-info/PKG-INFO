@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: gp7-robot-description
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: URDF description package for GP7 Robot manipulator with gripper
 Maintainer: ros-industrial
 Maintainer-email: TODO:
-License: TODO: License declaration
+License: BSD

@@ -1,6 +1,6 @@
 /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/ament_index/resource_index/packages/gp7_robot_description
 /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/package.xml
-/home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/launch.py
+/home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/launch/launch.py
 /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/urdf/gp7_robot.xacro
 /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/rviz/default.rviz
 /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/meshes/collision/link_8.STL

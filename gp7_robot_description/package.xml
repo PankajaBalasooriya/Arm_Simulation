@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>gp7_robot_description</name>
-  <version>0.1.0</version>
-  <description>URDF description package for GP7 Robot manipulator with gripper</description>
-  <maintainer email="pankajabalasooriya566@gmail.com">Pankaja Balasooriya</maintainer>
-  <license>BSD</license>
+  <version>0.2.0</version>
+  <description>Test</description>
+  <maintainer email="pankajabalasooriya566@gmail.com">Pankaja Balsooriya</maintainer>
+  <license>BSB</license>
 
   <depend>urdf</depend>
   <build_depend>launch_ros</build_depend>

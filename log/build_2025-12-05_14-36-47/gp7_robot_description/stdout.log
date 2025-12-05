@@ -8,7 +8,7 @@ writing manifest file '../build/gp7_robot_description/gp7_robot_description.egg-
 running build
 running install
 running install_data
-copying urdf/gp7_robot.xacro -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/urdf/
+copying launch/launch.py -> /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/share/gp7_robot_description/launch
 running install_egg_info
 removing '/home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/lib/python3.12/site-packages/gp7_robot_description-0.0.0-py3.12.egg-info' (and everything under it)
 Copying ../build/gp7_robot_description/gp7_robot_description.egg-info to /home/pankaja/projects/Arm_Simulation/install/gp7_robot_description/lib/python3.12/site-packages/gp7_robot_description-0.0.0-py3.12.egg-info
